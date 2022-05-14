@@ -15,6 +15,7 @@ public class TankView : MonoBehaviour
     {
         GameObject cam = GameObject.Find("Main Camera");
         cam.transform.SetParent(transform);
+        cam.transform.position = new Vector3(0f,3f,-4f);
     }
 
     // Update is called once per frame
